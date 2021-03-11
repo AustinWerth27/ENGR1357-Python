@@ -1,11 +1,14 @@
+#include SolarPanel
+
 class Photoresistor {
   private:
-    int calibration_function(int adc_reading);
-
+    // Variables
     int pin;
     
   public:
+    // Constructor
     Photoresistor(int pin)
 
-    int getLux();
+    // Methods
+    float getVoltage();
 }
