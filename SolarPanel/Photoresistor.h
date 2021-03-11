@@ -7,5 +7,5 @@ class Photoresistor {
   public:
     Photoresistor(int pin)
 
-    int get
+    int getLux();
 }
